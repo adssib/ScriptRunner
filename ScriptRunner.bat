@@ -2,16 +2,26 @@
 setlocal enabledelayedexpansion
 
 set LOGFILE=Log.txt
+set "startTime=%time%"
+set "startDate=%date%"
+
+echo > %LOGFILE%
 
 for /F "usebackq delims=" %%i in ("FilesToRun.txt") do (
-    echo Running: %%i 
+    call :log_message "!date! !time! Running: %%i"
     call %%i 
     if errorlevel 1 (
-        echo %%i Process Failed 
+        call :log_message "!date! !time! %%i Process Failed"
         exit /b !errorlevel!
     ) 
-    echo Finished Running %%i 
+    call :log_message "!date! !time! Finished %%i" 
     echo.
 )
 
-echo All Batch Script are executed successfully!
+call :log_message "!date! !time! All Batch Scripts executed successfully!"
+goto :eof
+
+:log_message
+echo %~1
+echo %~1 >> %LOGFILE%
+goto :eof

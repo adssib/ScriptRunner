@@ -1,0 +1,9 @@
+ECHO is off.
+09-Dec-24 19:14:30.53 Running: D:\projects\BatchTest\Scripts\bullshit.bat 
+09-Dec-24 19:14:35.21 Finished Running D:\projects\BatchTest\Scripts\bullshit.bat 
+09-Dec-24 19:14:35.22 Running: D:\projects\BatchTest\Scripts\idk.bat 
+09-Dec-24 19:14:40.13 Finished Running D:\projects\BatchTest\Scripts\idk.bat 
+09-Dec-24 19:14:40.13 Running: D:\projects\BatchTest\Scripts\potato.bat 
+09-Dec-24 19:14:45.15 Finished Running D:\projects\BatchTest\Scripts\potato.bat 
+09-Dec-24 19:14:45.15 Running: D:\projects\BatchTest\Scripts\test.bat 
+09-Dec-24 19:14:50.16 Finished Running D:\projects\BatchTest\Scripts\test.bat 
