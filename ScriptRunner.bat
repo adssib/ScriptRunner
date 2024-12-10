@@ -15,7 +15,17 @@ for /F "usebackq delims=" %%i in ("FilesToRun.txt") do (
     call %%i 
     if errorlevel 1 (
         call :log_message "!date! !time! %%i Process Failed"
-        exit /b !errorlevel!
+
+        :: this will retry one time and then stop
+        echo.
+        call :log_message "Retryring running of the file...."
+        call %%i
+        if errorlevel 1 (
+            echo. 
+            call :log_message "Reruning the file didn't work...."
+            call :log_message "terminating...."
+            exit /b !errorlevel! 
+        )
     ) 
     call :log_message "!date! !time! Finished %%i" 
     echo.

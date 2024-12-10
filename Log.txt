@@ -1,10 +1,10 @@
-09-Dec-24 19:41:26.38 Starting Running Scripts 
-09-Dec-24 19:41:26.38 Running: D:\projects\BatchTest\Scripts\bullshit.bat 
-09-Dec-24 19:41:31.19 Finished D:\projects\BatchTest\Scripts\bullshit.bat 
-09-Dec-24 19:41:31.19 Running: D:\projects\BatchTest\Scripts\idk.bat 
-09-Dec-24 19:41:36.20 Finished D:\projects\BatchTest\Scripts\idk.bat 
-09-Dec-24 19:41:36.21 Running: D:\projects\BatchTest\Scripts\potato.bat 
-09-Dec-24 19:41:41.21 Finished D:\projects\BatchTest\Scripts\potato.bat 
-09-Dec-24 19:41:41.21 Running: D:\projects\BatchTest\Scripts\test.bat 
-09-Dec-24 19:41:46.12 Finished D:\projects\BatchTest\Scripts\test.bat 
-09-Dec-24 19:41:46.13 All Batch Scripts executed successfully 
+09-Dec-24 20:00:33.52 Starting Running Scripts 
+09-Dec-24 20:00:33.52 Running: D:\projects\BatchTest\Scripts\bullshit.bat 
+09-Dec-24 20:00:38.21 Finished D:\projects\BatchTest\Scripts\bullshit.bat 
+09-Dec-24 20:00:38.21 Running: D:\projects\BatchTest\Scripts\idk.bat 
+09-Dec-24 20:00:43.14 Finished D:\projects\BatchTest\Scripts\idk.bat 
+09-Dec-24 20:00:43.14 Running: D:\projects\BatchTest\Scripts\potato.bat 
+09-Dec-24 20:00:43.15 D:\projects\BatchTest\Scripts\potato.bat Process Failed 
+Retryring running of the file.... 
+Reruning the file didn't work.... 
+terminating.... 

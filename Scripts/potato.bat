@@ -1,1 +1,1 @@
-TIMEOUT /T 5 /NOBREAK > NUL
+command || exit /b 111
