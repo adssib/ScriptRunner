@@ -5,7 +5,10 @@ set LOGFILE=Log.txt
 set "startTime=%time%"
 set "startDate=%date%"
 
-echo > %LOGFILE%
+:: this is to start with a completly empty Log file each time 
+type nul > %LOGFILE%
+
+call :log_message "!date! !time! Starting Running Scripts"
 
 for /F "usebackq delims=" %%i in ("FilesToRun.txt") do (
     call :log_message "!date! !time! Running: %%i"
@@ -19,7 +22,7 @@ for /F "usebackq delims=" %%i in ("FilesToRun.txt") do (
 )
 
 call :log_message "!date! !time! All Batch Scripts executed successfully!"
-goto :eof
+exit /b 0
 
 :log_message
 echo %~1
