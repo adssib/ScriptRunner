@@ -10,5 +10,5 @@ things to implement in the future
 
 5.  colored output and a way to diffrentiate the commands of ScriptRunner.bat itself and the output of the other Batch files you feel me 
 
-6.  Email notification ???!!!
+6. **Email notification ???!!!**(DONE)
 
