@@ -1,4 +1,0 @@
-D:\projects\BatchTest\Scripts\bullshit.bat
-D:\projects\BatchTest\Scripts\idk.bat
-D:\projects\BatchTest\Scripts\potato.bat
-D:\projects\BatchTest\Scripts\test.bat

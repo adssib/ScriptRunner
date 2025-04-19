@@ -1,0 +1,4 @@
+..\test_scripts\bullshit.bat
+..\test_scripts\idk.bat
+..\test_scripts\potato.bat
+..\test_scripts\test.bat
